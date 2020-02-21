@@ -624,7 +624,7 @@
                 "symfony/console": "^4.2",
                 "symfony/debug": "^4.2",
                 "symfony/finder": "^4.2",
-                "symfony/http-foundation": "^4.2",
+                "symfony/http-foundation": "^4.3.8",
                 "symfony/http-kernel": "^4.2",
                 "symfony/process": "^4.2",
                 "symfony/routing": "^4.2",
@@ -2050,7 +2050,7 @@
                 "symfony/config": "~3.4|~4.0",
                 "symfony/dependency-injection": "~3.4|~4.0",
                 "symfony/expression-language": "~3.4|~4.0",
-                "symfony/http-foundation": "^3.4|^4.0",
+                "symfony/http-foundation": "^4.3.8",
                 "symfony/service-contracts": "^1.1",
                 "symfony/stopwatch": "~3.4|~4.0"
             },
@@ -2199,7 +2199,7 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v4.3.3",
+            "version": "v4.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
@@ -2346,7 +2346,7 @@
         },
         {
             "name": "symfony/mime",
-            "version": "v4.3.3",
+            "version": "v4.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
@@ -2831,7 +2831,7 @@
                 "symfony/config": "~4.2",
                 "symfony/dependency-injection": "~3.4|~4.0",
                 "symfony/expression-language": "~3.4|~4.0",
-                "symfony/http-foundation": "~3.4|~4.0",
+                "symfony/http-foundation": "^4.3.8",
                 "symfony/yaml": "~3.4|~4.0"
             },
             "suggest": {
