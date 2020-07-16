@@ -83,7 +83,7 @@
         <main class="py-4 container-fluid">
             <div id="sidebar" class="sidebar float-left">
                 <div class="text-center">
-                    <img src="https://via.placeholder.com/100" alt="">
+                    <img src="img/profile.jpg" class="" style="width:100px" alt="">
                     <h5>{{Auth::user()->name}}</h5>
                 </div>
                 <div class="items-container">
