@@ -105,7 +105,7 @@
                         </li>
                          <li class="nav-item">
                             <a class="nav-link text-white text-decoration-none" href="">
-                                <h6 class="menu-item"><i class="fas fa-address-book"></i> Invoices</h6>
+                                <h6 class="menu-item"><i class="fas fa-address-book" href="{{ route ('admin.invoice') }}"></i> Invoices</h6>
                             </a>
                         </li>
                         <li class="nav-item">

@@ -1,4 +1,6 @@
+@extends('admin.layouts.app')
 
+@section('content')
 <!DOCTYPE html>
 <html>
     <head>
@@ -79,7 +81,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($orders as $order)
+                    
                         <tr>
                             <td height="45px">{{}}</td>
                             <td>{}</td>
@@ -88,7 +90,7 @@
                             <td>[]</td>
                             <td>Net 30</td>
                         </tr>
-                    @endforeach
+                    
 
                 </tbody>
             </table>
@@ -104,9 +106,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($orders as $order)
-
-                    @endforeach
+                   
                     <tr>
                         <td height="45px">1</td>
                         <td>{}</td>
@@ -150,3 +150,4 @@ If you have any questions concerning this invoice, contact (877) 304-1610 or bil
     </body>
 </html>
 
+@endsection

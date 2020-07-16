@@ -34,7 +34,7 @@ Route::middleware('auth', 'isAdmin')->namespace('admin')->group(function(){
     Route::get('admin/getSize/{device_id}', 'CreateOrderController@getSize');
     Route::get('admin/getMSIN/{carrier_id}', 'CreateOrderController@getMSIN');
     Route::get('admin/autocomplete', 'CreateOrderController@autocomplete');
-    Route::get('admin/invoice', 'InvoiceController@invoice');
+    Route::get('admin/invoice', 'InvoiceController@invoice')->name('admin.invoice');
 
     Route::post('admin/users/store', 'UsersController@store')->name('admin.users.store');
     Route::post('admin/customers/store', 'CustomersController@store')->name('admin.customers.store');
